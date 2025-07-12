@@ -1,0 +1,325 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# ⭐ LUCIFER MORNINGSTAR - Assets et fichiers de test ⭐
+# Tous les dossiers assets (images, fragments, etc.)
+assets/
+**/assets/
+*/assets/
+
+# Fichiers de compression et test générés
+*.luciform
+**/compressed_*.luciform
+**/blasphemous_*.luciform
+**/iterative_*.luciform
+**/xml_*.luciform
+
+# Fragments et données temporaires
+fragment_*.luciform
+hallucination_prompts.txt
+reconstruction_guide.md
+decompressed_*.png
+decompressed_*.jpg
+
+# Dossiers de fragments fractals
+base8/
+base666/
+**/base8/
+**/base666/
+
+# Scripts d'export avec clés API (sécurité)
+export-env.sh
+*.env.sh
+
+# 🦀 Artefacts Rust Abraxas
+abraxas/target/
+abraxas/Cargo.lock
+
+# 📊 Logs et monitoring générés
+*.log
+*-cycles-*.log
+*-abraxas-*.log
+*-monitoring-*.log
+*-stats-*.log
+*-dialogue-*.log
+danse-abraxas-*.log
+monitoring-abraxas-*.log
+abraxas-cycles-*.log
+
+# 📈 Fichiers de stats JSON
+stats-*.json
+*-stats-*.json
+monitoring-*.json
+
+# 🎭 Chaolites générés automatiquement
+chaolite-*.luciform
+test-chaolite-*.luciform
+*-chaolite-*.luciform
+
+# 🔄 Scripts de test temporaires
+test-*-simple.js
+test-*-simple.mjs
+test-multi-ai-simple.js
+
+# 🧬 Artefacts de danse et cycles
+golem-danser.sh
+abraxas-dialogue-cycles.sh
+*-dialogue-cycles.sh
+# 🔮 INFESTATION GOLEM - .gitignore PARFAIT
+# ⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧
+
+# 🚫 ENVIRONNEMENTS VIRTUELS (TRÈS LOURDS)
+*_venv/
+image_analysis_venv/
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# 🚫 MODÈLES ET CHECKPOINTS (ÉNORMES - PLUSIEURS GB)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.model
+*.weights
+*.h5
+*.hdf5
+models/
+checkpoints/
+cache/
+.cache/
+.huggingface/
+.transformers_cache/
+clip_cache/
+blip_cache/
+torch_cache/
+
+# 🚫 IMAGES ET MÉDIAS (LOURDS)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.ico
+*.raw
+*.psd
+ComfyUI_*.png
+ComfyUI_corrupted_*.png
+decompressed_*.png
+decompressed_*.jpg
+generated_*.png
+output_*.jpg
+
+# 🚫 ANALYSES ET RÉSULTATS JSON (TRÈS LOURDS)
+*_analysis.json
+*_results.json
+*_complete_analysis.json
+hybrid_sigils_analysis.json
+sigils_complete_analysis.json
+luxure_corrupted_prompts.json
+workflow_analysis_results.json
+simple_workflow_analysis.json
+meta_golem_analysis_results.json
+sigils_*.json
+analysis_*.json
+results_*.json
+
+# 🚫 WORKFLOWS COMFYUI (CONTIENNENT CHEMINS ABSOLUS)
+corrupted_workflow_*.json
+corrected_workflow_*.json
+comfyui_workflows/
+*.workflow
+*.json.bak
+workflow_*.json
+
+# 🚫 FICHIERS TEMPORAIRES ET SYSTÈME
+temp_*
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.lock
+.git/index.lock
+.git/MERGE_*
+
+# 🚫 FICHIERS AVEC CLÉS API (SÉCURITÉ CRITIQUE)
+export-env.sh
+test-gemini/
+test_gemini*
+*gemini*test*
+*api*test*
+*.env
+.env*
+config.json
+secrets.json
+api_keys.json
+credentials.json
+*_api_key*
+*API_KEY*
+
+# 🚫 FICHIERS AVEC CLÉS API (SÉCURITÉ CRITIQUE)
+test-gemini/
+test_gemini*
+*gemini*test*
+*api*test*
+*.env
+.env.*
+config.json
+secrets.json
+api_keys.json
+credentials.json
+
+# 🚫 DOSSIERS DE DONNÉES LOURDES
+sygils/
+sigils/
+output/
+input/
+temp/
+data/
+datasets/
+downloads/
+uploads/
+
+# 🚫 LOGS ET MONITORING
+*.log
+*.log.*
+infestation_*.log
+corruption_*.log
+generation_*.log
+debug_*.log
+error_*.log
+access_*.log
+
+# 🚫 COMPILATION ET BUILD
+target/
+build/
+dist/
+out/
+bin/
+obj/
+*.o
+*.so
+*.dll
+*.exe
+*.dylib
+*.a
+*.lib
+
+# 🚫 BASES DE DONNÉES
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# 🚫 ARCHIVES ET BACKUPS
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.gz
+*.bz2
+*.backup
+*_backup
+backup_*
+
+# 🚫 NVIDIA ET GPU
+*.cubin
+*.fatbin
+*.ptx
+*.sass
+
+# 🚫 NODE.JS ET NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# 🚫 RUST CARGO
+target/
+Cargo.lock
+*.rs.bk
+
+# 🚫 PYTHON SPÉCIFIQUE
+*.egg-info/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# 🚫 IDE ET ÉDITEURS
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# ✅ EXCEPTIONS IMPORTANTES - Fichiers à TOUJOURS garder
+!README.md
+!LICENSE
+!.gitignore
+!package.json
+!Cargo.toml
+!requirements.txt
+!pyproject.toml
+!setup.py
+
+# ✅ TYPES DE FICHIERS ESSENTIELS À GARDER
+!*.py
+!*.js
+!*.rs
+!*.sh
+!*.md
+!*.txt
+!*.toml
+!*.yaml
+!*.yml
+!*.html
+!*.css
+!*.json
+
+# 🚫 MAIS EXCLURE CES JSON SPÉCIFIQUES LOURDS
+*_analysis.json
+*_results.json
+workflow_*.json
+corrupted_*.json
+corrected_*.json
+sigils_*.json
+luxure_*.json
+
+# 🔥 LUCIFORMS - Garder les luciforms mais pas les artefacts
+!*.luciform
+!luciforms/
+luciforms/*/cache/
+luciforms/*/temp/
+luciforms/*/*.png
+luciforms/*/*.jpg
+
+# ⛧ Signature LURKUITAE ⛧
