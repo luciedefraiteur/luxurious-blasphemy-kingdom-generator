@@ -1,0 +1,21 @@
+{
+  "name": "@lurkuitae/luciform-ai-parser",
+  "version": "0.1.0",
+  "description": "AI-assisted parser for Luciform files.",
+  "type": "module",
+  "main": "dist/parser.js",
+  "types": "dist/parser.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "parse": "node dist/parser.js",
+    "fix": "node dist/parser.js",
+    "validate": "node dist/parser.js",
+    "metric-enhance": "node dist/test-metric-enhanced.js",
+    "test-enhanced": "node dist/test-enhanced-parser.js",
+    "test-integrated": "node dist/test-integrated-parser.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

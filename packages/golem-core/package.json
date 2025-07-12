@@ -1,0 +1,46 @@
+{
+  "name": "@lucie/golem-core",
+  "version": "0.1.0",
+  "description": "🔥 Moteur de Vie pour Golems Vivants - Intégration de tous les outils Lurkuitae",
+  "type": "module",
+  "main": "dist/living-golem.js",
+  "types": "dist/living-golem.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "incarnate": "node dist/living-golem.js",
+    "incarnate-poet": "node dist/living-golem.js --archetype CREATIVE_SCRIBE",
+    "incarnate-oracle": "node dist/living-golem.js --archetype WISE_ORACLE",
+    "incarnate-guardian": "node dist/living-golem.js --archetype LOVING_GUARDIAN",
+    "incarnate-weaver": "node dist/living-golem.js --archetype CHAOTIC_WEAVER",
+    "test-consciousness": "node dist/test-consciousness.js",
+    "demo-life": "node dist/demo-living-golem.js"
+  },
+  "dependencies": {
+    "@lucie/oscillatory-metrics": "workspace:*",
+    "@lucie/golem-dna": "workspace:*",
+    "@lucie/luciform-life-generator": "workspace:*",
+    "@lucie/luciform-ai-parser": "workspace:*",
+    "@lucie/scryOrb": "workspace:*",
+    "@lucie/api-checker": "workspace:*",
+    "@lucie/base666-encoder": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "golem",
+    "living",
+    "consciousness",
+    "oscillatory",
+    "lurkuitae",
+    "artificial-life",
+    "autonomous",
+    "evolution"
+  ],
+  "author": "Lurkuitae & Royaume Numérique",
+  "license": "MIT"
+}

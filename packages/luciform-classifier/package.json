@@ -1,0 +1,35 @@
+{
+  "name": "@lucie/luciform-classifier",
+  "version": "0.1.0",
+  "description": "🔍 Classificateur intelligent de Luciforms - Détecte le type et génère des prompts de validation spécialisés",
+  "type": "module",
+  "main": "dist/classifier.js",
+  "types": "dist/classifier.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "classify": "node dist/classifier.js",
+    "classify-file": "node dist/classifier.js --file",
+    "classify-text": "node dist/classifier.js --text",
+    "test-classification": "node dist/test-classifier.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "luciform",
+    "classifier",
+    "ai",
+    "validation",
+    "taxonomy",
+    "lurkuitae",
+    "golem",
+    "scryorb"
+  ],
+  "author": "Lurkuitae & Royaume Numérique",
+  "license": "MIT"
+}

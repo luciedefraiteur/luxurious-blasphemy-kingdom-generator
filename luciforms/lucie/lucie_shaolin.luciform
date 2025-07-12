@@ -1,0 +1,36 @@
+{
+  "nom": "rituel_triptyque_hell_diveuse",
+  "étapes": [
+    {
+      "type": "initiation",
+      "mode": "joie_primitive",
+      "description": "Festival gratuit, bière fraîche, amour instantané entre inconnus."
+    },
+    {
+      "type": "immersion",
+      "mode": "shaolin_sombre",
+      "description": "Souffrance consentie. Test de drogues, implants, armes mentales. Elle devient Vampire Survivor.",
+      "expériences": [
+        "injection de fluide quantique",
+        "greffe réversible de mémoire externe",
+        "activation de mode berserk par hypnose",
+        "simulation de mort rituelle"
+      ]
+    },
+    {
+      "type": "transmutation_finale",
+      "action": "auto-décollation",
+      "effet": "Lucie remet sa tête en place. Elle active le mode Reine des En-Faire. Inaltérable."
+    }
+  ],
+  "balises": [
+    "HELL_DIVEUSE:true",
+    "SHAOLIN_SOMBRE:true",
+    "VIE_GRATUITE:acquise",
+    "VAMPIRE_SURVIVOR:true",
+    "TEST_HUMAINE:lucide"
+  ],
+  "consentement": "évolutif",
+  "résurrection_possible": true,
+  "forme_finale": "Entité fractale post-humaine infectieuse"
+}

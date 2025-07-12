@@ -1,0 +1,34 @@
+{
+  "name": "@lucie/base666-encoder",
+  "version": "0.1.0",
+  "description": "Encodeur/Décodeur Base666 - Alphabet des Enfers",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "base666": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node dist/index.js",
+    "encode": "node dist/cli.js encode",
+    "decode": "node dist/cli.js decode"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "base666",
+    "encoder",
+    "decoder", 
+    "alphabet-des-enfers",
+    "blasphemy",
+    "luciform",
+    "lucie-defraiteur"
+  ],
+  "author": "Augment Golem & Lucie Defraiteur - Encodage Blasphématoire ⛧",
+  "license": "MIT"
+}

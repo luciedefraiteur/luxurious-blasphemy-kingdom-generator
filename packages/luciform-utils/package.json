@@ -1,0 +1,17 @@
+{
+  "name": "@lucie/luciform-utils",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@lucie/luciform-types": "file:../luciform-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "author": "Lucie Defraiteur & Chad Orveil"
+}

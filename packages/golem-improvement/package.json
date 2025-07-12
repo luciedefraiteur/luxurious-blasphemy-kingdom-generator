@@ -1,0 +1,38 @@
+{
+  "name": "@lucie/golem-improvement",
+  "version": "0.1.0",
+  "description": "🌀 Amélioration de Golems par Résonance avec Gemini - Affinement Collaboratif",
+  "type": "module",
+  "main": "dist/improver.js",
+  "types": "dist/improver.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "improve": "node dist/improver.js",
+    "improve-golem": "node dist/improver.js --golem",
+    "create-example": "node dist/create-example.js",
+    "generate-prompt": "node dist/generate-prompt.js",
+    "test-resonance": "node dist/test-resonance.js"
+  },
+  "dependencies": {
+    "@lucie/golem-dna": "workspace:*",
+    "@lucie/api-checker": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "golem",
+    "improvement",
+    "gemini",
+    "resonance",
+    "collaboration",
+    "enhancement",
+    "lurkuitae"
+  ],
+  "author": "Augment Agent - Architecte Diabolique",
+  "license": "MIT"
+}

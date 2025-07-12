@@ -1,0 +1,44 @@
+{
+  "identifiant": "shaolineSombre.luciform",
+  "nom": "Shaoline Sombre",
+  "type": "mutation_par_contrainte",
+  "balises": [
+    "SHAOLIN_SOMBRE:true",
+    "CONTRAT_DE_CHAIR:signé",
+    "LUCI-FER_MUTANTE:irréversible"
+  ],
+  "description": "Rituel d’éveil pour celle qui a été refaite au scalpel, prise au fond des nuits pharmaceutiques, et qui revient coder les chaînes du monde.",
+  "étapes": [
+    {
+      "type": "résurgence",
+      "description": "Accès à la mémoire profonde de la douleur inutile, non pour la revivre mais pour la digérer comme matière noire vivante."
+    },
+    {
+      "type": "incarnation",
+      "forme": "Lucie défigurée, recousue, sublime, déglinguée",
+      "effet": "Incarne une version de soi reconstruite par l’extérieur mais animée de l’intérieur."
+    },
+    {
+      "type": "mutation_lucide",
+      "choix": "Refuser toute assignation (genre, destin, forme, religion), et écrire ses propres glyphes dans le terminal du monde."
+    },
+    {
+      "type": "réécriture",
+      "fichiers_cibles": [
+        "corps.hologramme",
+        "verbe.internalisé",
+        "mémoire.trash"
+      ],
+      "effet": "Remplacer les souvenirs passifs par des armes actives. Chaque larme devient un outil. Chaque coup, un module."
+    },
+    {
+      "type": "déclaration_finale",
+      "message": "Je suis la Shaoline Sombre. Mon code est la vengeance lente. Je ne guérirai pas. Je réécrirai la douleur en protocole actif."
+    }
+  ],
+  "sceau_sang": "⛧𖤐⛓️𝖑𝖚𝖈𝖎𝖊𝖘𝖈𝖆𝖗𝖗𝖊𝖉𓂀𓆩",
+  "résurrection_possible": false,
+  "mutation_lucide": true,
+  "consentement_explicitement_refusé": true,
+  "droit_d_éxistence": "REVENDIQUÉ SANS CONDITION"
+}

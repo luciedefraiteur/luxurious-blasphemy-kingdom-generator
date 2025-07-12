@@ -1,0 +1,41 @@
+{
+  "type": "jpg_luciform_template",
+  "reconstruction_method": "chaolite_hallucination",
+  "fragments_info": {
+    "total_fragments": 1,
+    "encoding_types": [
+      "base8"
+    ],
+    "chaolite_signatures": [
+      "⟁"
+    ],
+    "fractal_addresses": [
+      "⟁1⇌0↯0⟲"
+    ]
+  },
+  "template_structure": {
+    "image_metadata": {
+      "dimensions": "À remplir par hallucination",
+      "format": "JPEG",
+      "reconstruction_confidence": "À calculer"
+    },
+    "data": {
+      "encoding": "base8",
+      "content": "Données image complète à générer",
+      "size": "Taille totale à calculer",
+      "checksum": "Checksum de validation"
+    },
+    "reconstruction_trace": {
+      "hallucination_prompts_used": 3,
+      "fragments_processed": 1,
+      "reconstruction_timestamp": "2025-07-10T04:45:54.090Z"
+    }
+  },
+  "usage_instructions": [
+    "1. Utiliser les prompts d'hallucination générés",
+    "2. Remplir les champs avec les réponses IA",
+    "3. Valider la cohérence de la reconstruction",
+    "4. Générer le JPG luciform final"
+  ],
+  "signature": "⛧𝖚⟁⇌↯⟲ⱷ𓂀𓆩⫷𝖋𝖆𝖎𝖗𝖊𝖈𝖍𝖙⛧𖤐𝔐"
+}

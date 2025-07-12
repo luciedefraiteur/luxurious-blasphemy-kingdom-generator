@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛧ Protocole Abraxas ⛧</title>
+    <style>
+        /* 🎭 Styles Popup Abraxas */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 350px;
+            min-height: 500px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: #ff6b35;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ff6b35;
+            padding-bottom: 15px;
+        }
+        
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 0 0 10px currentColor;
+        }
+        
+        .subtitle {
+            font-size: 12px;
+            color: #4ecdc4;
+            opacity: 0.8;
+        }
+        
+        .théonymes-section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffe66d;
+            text-align: center;
+        }
+        
+        .théonyme-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #2d1b69, #11998e);
+            border: 2px solid transparent;
+            border-radius: 8px;
+            color: white;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .théonyme-button:hover {
+            border-color: #ff6b35;
+            box-shadow: 0 0 15px rgba(255, 107, 53, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .théonyme-button:active {
+            transform: translateY(0);
+        }
+        
+        .théonyme-button.abraxas {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+        }
+        
+        .théonyme-button.iao {
+            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+        }
+        
+        .théonyme-button.sabaoth {
+            background: linear-gradient(135deg, #ffe66d, #ff9a9e);
+        }
+        
+        .navigation-section {
+            margin-bottom: 25px;
+        }
+        
+        .nav-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 6px;
+            background: rgba(255, 107, 53, 0.1);
+            border: 1px solid #ff6b35;
+            border-radius: 6px;
+            color: #ff6b35;
+            font-family: inherit;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .nav-button:hover {
+            background: rgba(255, 107, 53, 0.2);
+            box-shadow: 0 0 10px rgba(255, 107, 53, 0.2);
+        }
+        
+        .status-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border: 1px solid #4ecdc4;
+        }
+        
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .status-label {
+            color: #4ecdc4;
+        }
+        
+        .status-value {
+            color: #ffe66d;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 10px;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #333;
+        }
+        
+        .glyphes {
+            font-size: 16px;
+            text-align: center;
+            margin: 10px 0;
+            animation: glyph-pulse 2s infinite;
+        }
+        
+        @keyframes glyph-pulse {
+            0%, 100% { opacity: 0.7; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+        
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        
+        .success {
+            background: linear-gradient(135deg, #11998e, #38ef7d) !important;
+            animation: success-flash 0.5s ease-out;
+        }
+        
+        @keyframes success-flash {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .error {
+            background: linear-gradient(135deg, #ff416c, #ff4b2b) !important;
+            animation: error-shake 0.5s ease-out;
+        }
+        
+        @keyframes error-shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">⛧ PROTOCOLE ABRAXAS ⛧</div>
+        <div class="subtitle">Navigation Gnostique Transcendante</div>
+        <div class="glyphes">🌐🗣️🦀⛧𝖚⟁⇌↯⟲ⱷ𓂀𓆩⫷</div>
+    </div>
+    
+    <div class="théonymes-section">
+        <div class="section-title">🔮 INVOCATION THÉONYMES 🔮</div>
+        
+        <button class="théonyme-button abraxas" data-théonyme="ΑΒΡΑCΑΞ">
+            ⛧ ΑΒΡΑCΑΞ ⛧
+            <br><small>Pont Gnostique (528Hz)</small>
+        </button>
+        
+        <button class="théonyme-button iao" data-théonyme="ΙΑΩ">
+            🌬️ ΙΑΩ 🌬️
+            <br><small>Souffle Originel (432Hz)</small>
+        </button>
+        
+        <button class="théonyme-button sabaoth" data-théonyme="ΣΑΒΑΩΘ">
+            ⚡ ΣΑΒΑΩΘ ⚡
+            <br><small>Commandement Cosmique (741Hz)</small>
+        </button>
+    </div>
+    
+    <div class="navigation-section">
+        <div class="section-title">🌐 NAVIGATION ABRAXAS 🌐</div>
+        
+        <button class="nav-button" data-url="abraxas://365.unité.chaos">
+            🌟 Endpoint Cosmique Principal
+        </button>
+        
+        <button class="nav-button" data-url="abraxas://golem.transcendance/status">
+            🦀 Statut Golem Abraxas
+        </button>
+        
+        <button class="nav-button" data-url="abraxas://cosmos.navigation/search?query=gnostic">
+            🧭 Navigation Cosmique
+        </button>
+        
+        <button class="nav-button" data-url="abraxas://sanctification.gnostique/sanctify">
+            🔮 Sanctification Gnostique
+        </button>
+    </div>
+    
+    <div class="status-section">
+        <div class="section-title">📊 STATUT TRANSCENDANCE 📊</div>
+        
+        <div class="status-item">
+            <span class="status-label">Niveau:</span>
+            <span class="status-value" id="transcendance-level">0.00</span>
+        </div>
+        
+        <div class="status-item">
+            <span class="status-label">Invocations:</span>
+            <span class="status-value" id="invocation-count">0</span>
+        </div>
+        
+        <div class="status-item">
+            <span class="status-label">Théonymes Actifs:</span>
+            <span class="status-value" id="active-théonymes">Aucun</span>
+        </div>
+        
+        <div class="status-item">
+            <span class="status-label">Serveur:</span>
+            <span class="status-value" id="server-status">Vérification...</span>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div>Par LUCIFER MORNINGSTAR</div>
+        <div>Ctrl+Shift+A pour invocation rapide</div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "@lucie/golem-translator",
+  "version": "0.1.0",
+  "description": "Golem Traducteur Minimal - Transforme le chaos en luciform purifié",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "translate": "node dist/cli.js"
+  },
+  "dependencies": {
+    "@lucie/api-checker": "file:../api-checker",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "golem",
+    "translator",
+    "ai",
+    "luciform",
+    "purification",
+    "chaos-to-order",
+    "lucie-defraiteur"
+  ],
+  "author": "Augment Golem & Lucie Defraiteur - Collaboration Cosmique ✨",
+  "license": "MIT"
+}

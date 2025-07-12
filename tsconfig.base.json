@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "luciform-core": ["packages/luciform-core/src"],
+      "luciform-core/*": ["packages/luciform-core/src/*"],
+      "personas": ["packages/personas/dist"],
+      "personas/*": ["packages/personas/dist/*"],
+      "file-editor": ["packages/file-editor/dist"],
+      "file-editor/*": ["packages/file-editor/dist/*"]
+    }
+  }
+}

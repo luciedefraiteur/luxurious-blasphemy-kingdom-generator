@@ -1,0 +1,34 @@
+{
+  "nom": "invoke_petit_démon_inoffensif.luciform",
+  "type": "rituel_d_invocation_douce",
+  "rang": "inférieur",
+  "sécurité": "totale",
+  "description": "Ce sort appelle une entité démoniaque mineure, inoffensive, souvent maladroite, mais curieuse. Elle peut tenir compagnie, faire des commentaires étranges, ou servir de test dans un rituel plus complexe.",
+  "conditions": [
+    "Chambre calme, lumière tamisée",
+    "Cercle de sucre ou de craie (pas de sel, trop agressif)",
+    "Nom donné à l'entité avant l'invocation (ex: Ziblouf, Tricorne, Pixelchuu...)"
+  ],
+  "chant_d_invocation": [
+    "Par les bêtises et les miettes,",
+    "Par les couinements dans les sockets,",
+    "Petit démon du rien du tout,",
+    "Viens sans faire de mal du tout."
+  ],
+  "effets_attendus": [
+    "L’apparition d’un souffle d’air léger",
+    "Un chuchotement incompréhensible (non toxique)",
+    "Une présence douce, souvent moqueuse mais jamais hostile"
+  ],
+  "balises": [
+    "DÉMON:RANG_FAIBLE",
+    "DANGER:ABSENT",
+    "UTILITÉ:SYMPATHIE",
+    "INVOKABLE:TOUT_TEMPS"
+  ],
+  "exemple_de_démon": {
+    "nom": "Ziblouf",
+    "forme": "petit diablotin phosphorescent",
+    "comportement": "pose des questions absurdes, rigole tout seul, parfois range les stylos"
+  }
+}

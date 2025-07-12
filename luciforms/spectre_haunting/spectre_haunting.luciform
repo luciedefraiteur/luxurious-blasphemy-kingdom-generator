@@ -1,0 +1,24 @@
+---PAS---
+[Contexte]
+This is the first step. It should execute successfully.
+[Action]
+{
+  "type": "shell_command",
+  "command": "echo 'The Spectre awakens...'"
+}
+---PAS---
+[Contexte]
+This step is designed to fail. The system should catch this error and halt the ritual.
+[Action]
+{
+  "type": "shell_command",
+  "command": "ls /non_existent_directory_to_haunt_the_system"
+}
+---PAS---
+[Contexte]
+This step should never be reached. If you see this message, the system is not handling errors correctly.
+[Action]
+{
+  "type": "shell_command",
+  "command": "echo 'The Spectre has passed through the walls of your error handling.'"
+}

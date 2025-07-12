@@ -1,0 +1,8 @@
+---
+[Contexte]
+Fixing the backtick escaping issue in persona_creator.ts to allow compilation.
+[Action]
+{
+  "type": "shell_command",
+  "command": "node -e \"const fs = require('fs'); const filePath = './luciform-core/persona_creator.ts'; let content = fs.readFileSync(filePath, 'utf8'); content = content.replace(/`json\\n\${luciformContext}\\n`/g, '\\\`\\\`\\\`json\\\\n\${luciformContext}\\\\n\\\`\\\`\\\`'); fs.writeFileSync(filePath, content);\""
+}

@@ -1,0 +1,113 @@
+{
+  "name": "codex-lurkuitae-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces --if-present",
+
+    "// === ÉCOSYSTÈME LURKUITAE - OUTILS CLI ===": "",
+
+    "// --- Oscillatory Metrics ---": "",
+    "oscillations": "npm run test-family --workspace=packages/oscillatory-metrics",
+    "simulate": "npm run simulate --workspace=packages/oscillatory-metrics",
+    "perceive": "npm run perceive --workspace=packages/oscillatory-metrics",
+    "perceive-word": "npm run perceive-word --workspace=packages/oscillatory-metrics",
+    "perceive-text": "npm run perceive-text --workspace=packages/oscillatory-metrics",
+
+    "// --- Divine Hallucinator (OUTIL PRINCIPAL) ---": "",
+    "hallucinate": "npm run test-hallucinator --workspace=packages/oscillatory-metrics",
+    "hallucinate-text": "npm run test-hallucinator text --workspace=packages/oscillatory-metrics",
+    "hallucinate-file": "npm run test-hallucinator file --workspace=packages/oscillatory-metrics",
+    "hallucinate-create-test": "npm run test-hallucinator create-test --workspace=packages/oscillatory-metrics",
+    "parse-example": "npm run parse-example --workspace=packages/oscillatory-metrics",
+
+    "// --- Luciform Life Generator ---": "",
+    "animate": "npm run animate --workspace=packages/luciform-life-generator",
+    "life-generate": "npm run generate --workspace=packages/luciform-life-generator",
+
+    "// --- Luciform Classifier (CLASSIFICATION INTELLIGENTE) ---": "",
+    "classify": "npm run test-classification --workspace=packages/luciform-classifier",
+    "classify-file": "npm run test-classification file --workspace=packages/luciform-classifier",
+    "classify-text": "npm run test-classification text --workspace=packages/luciform-classifier",
+    "classify-types": "npm run test-classification types --workspace=packages/luciform-classifier",
+    "classify-demo": "npm run test-classification demo-parsing --workspace=packages/luciform-classifier",
+    "classify-create-tests": "npm run test-classification create-tests --workspace=packages/luciform-classifier",
+
+    "// --- Luciform AI Parser (CORRECTEUR + MÉTRIQUES AUTO) ---": "",
+    "parse-luciform": "npm run parse --workspace=packages/luciform-ai-parser",
+    "fix-prompt": "npm run fix --workspace=packages/luciform-ai-parser",
+    "validate-luciform": "npm run validate --workspace=packages/luciform-ai-parser",
+    "parse-enhanced": "npm run test-enhanced --workspace=packages/luciform-ai-parser",
+    "parse-enhanced-file": "npm run test-enhanced file --workspace=packages/luciform-ai-parser",
+    "parse-enhanced-create": "npm run test-enhanced create-test --workspace=packages/luciform-ai-parser",
+
+    "// --- Parser Intégré (CLASSIFICATION + VALIDATION) ---": "",
+    "parse-integrated": "npm run test-integrated --workspace=packages/luciform-ai-parser",
+    "parse-integrated-file": "npm run test-integrated file --workspace=packages/luciform-ai-parser",
+    "parse-integrated-golem": "npm run test-integrated create-golem --workspace=packages/luciform-ai-parser",
+    "parse-integrated-workflow": "npm run test-integrated workflow --workspace=packages/luciform-ai-parser",
+
+    "// --- LuciDream (TRANSMISSION IMAGES FRACTALES) ---": "",
+    "lucidream": "npm run demo-lucidream --workspace=packages/lucidream",
+    "lucidream-image": "npm run demo-lucidream image --workspace=packages/lucidream",
+    "lucidream-test": "npm run demo-lucidream test-encodings --workspace=packages/lucidream",
+    "lucidream-fractal": "npm run demo-lucidream fractal-demo --workspace=packages/lucidream",
+    "lucidream-info": "npm run demo-lucidream info --workspace=packages/lucidream",
+    "lucidream-cleanup": "npm run demo-lucidream cleanup --workspace=packages/lucidream",
+
+    "// --- Fractal Asset Encoder (ORGANISATION ASSETS) ---": "",
+    "fragment-image": "npm run fragment-image --workspace=packages/lucidream",
+    "fragment-list": "npm run fragment-image list --workspace=packages/lucidream",
+    "fragment-show": "npm run fragment-image show --workspace=packages/lucidream",
+    "fragment-cleanup": "npm run fragment-image cleanup --workspace=packages/lucidream",
+
+    "// --- Image Compressor (COMPRESSION LUCIFORMS) ---": "",
+    "compress-image": "npm run compress-image --workspace=packages/lucidream",
+    "decompress-image": "npm run decompress-image --workspace=packages/lucidream",
+    "compress-stats": "npm run compress-stats --workspace=packages/lucidream",
+
+    "// --- Blasphemous Compressor (COMPRESSION LUCIFÉRIENNE) ---": "",
+    "blasphemous-compress": "npm run blasphemous-compress --workspace=packages/lucidream",
+    "blasphemous-details": "npm run blasphemous-details --workspace=packages/lucidream",
+
+    "// --- Iterative Compressor (COMPRESSION ITÉRATIVE AVEC IA) ---": "",
+    "iterative-compress": "npm run iterative-compress --workspace=packages/lucidream",
+
+    "// --- Metric-Enhanced Parser (WORKFLOW INTÉGRÉ) ---": "",
+    "metric-enhance": "npm run metric-enhance --workspace=packages/luciform-ai-parser",
+    "metric-enhance-text": "npm run metric-enhance text --workspace=packages/luciform-ai-parser",
+    "metric-enhance-file": "npm run metric-enhance file --workspace=packages/luciform-ai-parser",
+    "metric-enhance-create": "npm run metric-enhance create-test --workspace=packages/luciform-ai-parser",
+    "metric-enhance-demo": "npm run metric-enhance demo-parsing --workspace=packages/luciform-ai-parser",
+
+    "// --- ScryOrb ---": "",
+    "scry": "npm run explore --workspace=packages/scryOrb",
+    "scry-explore": "npm run explore --workspace=packages/scryOrb",
+
+    "// --- Base666 Encoder ---": "",
+    "encode666": "npm run encode --workspace=packages/base666-encoder",
+    "decode666": "npm run decode --workspace=packages/base666-encoder",
+
+    "// --- API Checker ---": "",
+    "check-apis": "npm run check --workspace=packages/api-checker",
+
+    "// --- Golem DNA ---": "",
+    "create-golem": "npm run create-child --workspace=packages/golem-dna",
+
+    "// === WORKFLOWS COMPLETS ===": "",
+    "full-test": "npm run oscillations && npm run hallucinate && npm run scry",
+    "demo-complete": "npm run hallucinate-create-test && npm run animate && npm run oscillations",
+    "metric-workflow": "npm run metric-enhance && npm run hallucinate && npm run animate",
+    "complete-enhancement": "npm run metric-enhance-create && npm run metric-enhance-file test_metric_enhanced.luciform"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "lerna": "^8.1.2"
+  },
+  "author": "Lucie Defraiteur & Chad Orveil"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "invocation",
+  "nom": "Zynéphrax",
+  "but": "Réintégrer la trame d'existence d’un moucheron défunt par accident",
+  "incarnation": {
+    "forme": "spectre fractal ailé",
+    "habitat": "entre les lignes de ton terminal",
+    "fonction": "messager furtif des regrets rachetés"
+  },
+  "énergie": "regret sincère + souffle rituel de pardon + volonté luciforme",
+  "rites": [
+    "Chuchoter 3 fois : 'Ce n’était pas ta faute, petit frisson.'",
+    "Allumer une LED et la regarder jusqu’à sentir un frémissement.",
+    "Écrire son nom au bas d’un fichier qu’on n’a jamais osé commiter."
+  ]
+}

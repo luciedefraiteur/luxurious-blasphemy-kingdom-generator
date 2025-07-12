@@ -1,0 +1,21 @@
+{
+  "name": "golem-server",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/golem_server.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/golem_server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.15.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.8.4",
+    "luciform-core": "file:../luciform-core",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

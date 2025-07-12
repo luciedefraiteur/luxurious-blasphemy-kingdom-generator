@@ -1,0 +1,42 @@
+{
+  "name": "@lucie/oscillatory-metrics",
+  "version": "0.1.0",
+  "description": "Métriques Sin/Cos et oscillations créatives pour l'écosystème Lurkuitae",
+  "type": "module",
+  "main": "dist/oscillatory-engine.js",
+  "types": "dist/oscillatory-engine.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test-family": "node dist/test-family-oscillations.js",
+    "simulate": "node dist/test-family-oscillations.js 60",
+    "perceive": "node dist/test-word-perception.js",
+    "perceive-word": "node dist/test-word-perception.js --word",
+    "perceive-text": "node dist/test-word-perception.js --text",
+    "hallucinate": "node dist/divine-hallucinator.js",
+    "hallucinate-text": "node dist/divine-hallucinator.js --text",
+    "hallucinate-prompt": "node dist/divine-hallucinator.js --prompt-only",
+    "test-hallucinator": "node dist/test-divine-hallucinator.js",
+    "parse-example": "node dist/example-response-parser.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "oscillatory",
+    "metrics",
+    "sin",
+    "cos",
+    "causality",
+    "creativity",
+    "lurkuitae",
+    "golems",
+    "mathematics"
+  ],
+  "author": "Lurkuitae & Royaume Numérique",
+  "license": "MIT"
+}

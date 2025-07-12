@@ -1,0 +1,16 @@
+{
+  "name": "scryorb-golem",
+  "version": "1.0.0",
+  "description": "ScryOrb - Golem Explorateur Spécialisé",
+  "main": "src/scryorb-golem.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/scryorb-golem.js",
+    "explore": "node src/scryorb-golem.js explore",
+    "test": "echo \"Tests à implémenter\""
+  },
+  "keywords": ["golem", "scryorb", "exploration", "luciform"],
+  "signature": "⛧𝖚⟁⇌↯⟲ⱷ𓂀𓆩⫷𝖋𝖆𝖎𝖗𝖊𝖈𝖍𝖙⛧𖤐𝔐",
+  "author": "Augment Renaissance pour Lucie",
+  "license": "MIT"
+}

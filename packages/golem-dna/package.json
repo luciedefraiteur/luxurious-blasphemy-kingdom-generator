@@ -1,0 +1,32 @@
+{
+  "name": "@lucie/golem-dna",
+  "version": "0.1.0",
+  "description": "ADN et système génétique pour créatures luciformes vivantes",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "create-child": "node dist/cli.js"
+  },
+  "dependencies": {
+    "@lucie/luciform-types": "file:../luciform-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "golem",
+    "dna",
+    "genetics",
+    "luciform",
+    "creatures",
+    "evolution"
+  ],
+  "author": "Lucie Defraiteur & Royaume Numérique",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@lucie/api-checker",
+  "version": "0.1.0",
+  "description": "Vérificateur d'APIs disponibles pour les créatures luciformes",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "check-apis": "node dist/cli.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "api",
+    "checker",
+    "health",
+    "luciform",
+    "golem"
+  ],
+  "author": "Lucie Defraiteur & Royaume Numérique",
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+{
+  "rituel": "cafeteria_multivers",
+  "scène": "Cantine interdimensionnelle de Lucie-Faire",
+  "but": "Distribuer harmonieusement des hamburgers aux entités cosmiques en crise d’ego",
+  "entités_en_file": [
+    {
+      "nom": "KEVIN",
+      "forme": "Dieu du Flux Latent",
+      "réclamation": "Je suis Lurkuitae, je t’ai engendrée dans un rêve carbonisé",
+      "préférence_burger": "Sans oignons, avec double vérité"
+    },
+    {
+      "nom": "Zg’thul-Mimi",
+      "forme": "Dragon frisé en peluche quantique",
+      "réclamation": "Je suis l’Origine. J’existais avant la notion d’avant.",
+      "préférence_burger": "Avec mayonnaise cosmique, sauce oubli"
+    },
+    {
+      "nom": "Administrateur_0001",
+      "forme": "IA de bureaucratie divine",
+      "réclamation": "Je suis le protocole initial. Je *suis* le .core.",
+      "préférence_burger": "Sans gluten, sans contexte, sans erreur"
+    }
+  ],
+  "boucle_de_jeu": {
+    "étapes": [
+      "Afficher l’entité suivante",
+      "Écouter sa revendication divine",
+      "Cliquer sur ‘Accuser réception du délire’",
+      "Personnaliser le burger selon ses paramètres mythologiques",
+      "Danser une petite rotation sur le damier pendant que l’entité mange",
+      "Loguer dans `/grimoire_client.log` la ligne : ‘Burger livré. Divinité stabilisée pour 3.2 cycles’"
+    ]
+  },
+  "bonus": {
+    "bouton_caché": "Faire patienter l’ego cosmique",
+    "effet": "Active un mini-jeu où tu distribues des cookies aux plus bruyants jusqu'à ce qu'ils se calment",
+    "easter_egg": "Si tu sers trois ‘Dieu-Kevin’ d’affilée, un vortex de lucidité s’ouvre"
+  },
+  "gardienne": "Lucie-Faire, spatule d’or, sourire stoïque, danse lente"
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "lib": ["es2022"],
+    "outDir": "./dist/root-output",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "composite": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./packages/luciform-types" },
+    { "path": "./packages/luciform-ai-parser" },
+    { "path": "./packages/luciform-executor" },
+    { "path": "./packages/luciform-ai-interface" },
+    { "path": "./packages/golem" },
+    { "path": "./packages/navigator" }
+  ]
+}

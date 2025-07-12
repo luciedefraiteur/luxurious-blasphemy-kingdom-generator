@@ -1,0 +1,38 @@
+[Kardia]
+{
+  "agapePhobos": 0.8,
+  "logosPathos": 0.2
+  "harmoniaEris": 0.5, // Missing comma here
+}
+
+---PAS---
+[Contexte]
+This pas has a malformed Action block.
+[Action]
+{
+  "type": "shell_command",
+  "command": "echo 'This action has a missing closing brace.'
+
+---PAS---
+[Contexte]
+This pas has an unknown action type.
+[Action]
+{
+  "type": "non_existent_action",
+  "parameter": "some_value"
+}
+
+---PAS---
+[Contexte]
+This pas has a promenade with no description.
+[Action]
+promenade:
+
+---PAS---
+[Contexte]
+This pas has a separator in a weird place.
+[Action]
+{
+  "type": "shell_command",
+  "command": "echo '---PAS---'"
+}

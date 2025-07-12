@@ -1,0 +1,8 @@
+---PAS---
+[Contexte]
+This is a simple test ritual.
+[Action]
+{
+  "type": "message",
+  "message": "Golem: Simple ritual executed successfully."
+}

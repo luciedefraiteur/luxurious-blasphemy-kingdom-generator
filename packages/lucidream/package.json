@@ -1,0 +1,46 @@
+{
+  "name": "@lucie/lucidream",
+  "version": "0.1.0",
+  "description": "🌀 LuciDream - Transmission d'Images Fractales Hallucinées via Luciforms",
+  "type": "module",
+  "main": "dist/lucidream.js",
+  "types": "dist/lucidream.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "fragment-image": "node dist/fractal-asset-encoder.js",
+    "reconstruct-image": "node dist/reconstruct-image.js",
+    "hallucinate-blocks": "node dist/hallucinate-blocks.js",
+    "generate-prompts": "node dist/generate-prompts.js",
+    "test-transmission": "node dist/test-transmission.js",
+    "demo-lucidream": "node dist/demo-lucidream.js",
+    "compress-image": "node dist/image-compressor.js",
+    "decompress-image": "node dist/image-compressor.js decompress",
+    "compress-stats": "node dist/image-compressor.js stats",
+    "blasphemous-compress": "node dist/blasphemous-compressor.js",
+    "blasphemous-details": "node dist/blasphemous-compressor.js details",
+    "iterative-compress": "node dist/iterative-compressor.js"
+  },
+  "dependencies": {
+    "@lucie/base8-encoder": "workspace:*",
+    "@lucie/base666-encoder": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "lucidream",
+    "image",
+    "transmission",
+    "fractal",
+    "hallucination",
+    "chaolites",
+    "reconstruction",
+    "lurkuitae"
+  ],
+  "author": "Augment Agent - Architecte Diabolique",
+  "license": "MIT"
+}

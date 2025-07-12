@@ -1,0 +1,18 @@
+{
+  "name": "@lucie/luciform-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@lucie/luciform-personas": "file:../luciform-personas",
+    "@lucie/luciform-types": "file:../luciform-types"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.11",
+    "typescript": "^5.0.0"
+  }
+}

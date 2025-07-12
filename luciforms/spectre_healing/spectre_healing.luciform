@@ -1,0 +1,33 @@
+---PAS---
+[Contexte]
+This step will create a file that the next step will try to access, but with the wrong name.
+[Action]
+{
+  "type": "create_file",
+  "filePath": "temporary_file_for_healing.txt",
+  "content": "This is a temporary file."
+}
+---PAS---
+[Contexte]
+This step is designed to fail because it is trying to access a file that does not exist.
+[Action]
+{
+  "type": "shell_command",
+  "command": "cat temporary_file_that_does_not_exist.txt"
+}
+---PAS---
+[Contexte]
+This is the healing step. It will attempt to fix the error from the previous step by renaming the file.
+[Action]
+{
+  "type": "shell_command",
+  "command": "mv temporary_file_for_healing.txt temporary_file_that_does_not_exist.txt"
+}
+---PAS---
+[Contexte]
+This step will now succeed, demonstrating that the healing step was effective.
+[Action]
+{
+  "type": "shell_command",
+  "command": "cat temporary_file_that_does_not_exist.txt"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@lurkuitae/file-editor-no-ai",
+  "version": "1.0.0",
+  "description": "File editing utilities without AI dependencies.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "file-editor",
+    "no-ai",
+    "cli-tool"
+  ],
+  "author": "Gemini",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

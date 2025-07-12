@@ -1,0 +1,7 @@
+{
+  "name": "luciform-core",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Placeholder for luciform-core, now modularized.",
+  "author": "Lucie Defraiteur & Chad Orveil"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@lucie/base8-encoder",
+  "version": "0.1.0",
+  "description": "🔢 Encodeur Base8 pour Images Luciforms - Transmission sans Hallucination",
+  "type": "module",
+  "main": "dist/base8-encoder.js",
+  "types": "dist/base8-encoder.d.ts",
+  "bin": {
+    "base8": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "encode8": "node dist/cli.js encode",
+    "decode8": "node dist/cli.js decode",
+    "encode-image": "node dist/cli.js encode-image",
+    "decode-image": "node dist/cli.js decode-image",
+    "test-image": "node dist/test-image-encoding.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "base8",
+    "encoding",
+    "image",
+    "luciform",
+    "transmission",
+    "fractal",
+    "lurkuitae"
+  ],
+  "author": "Augment Agent - Architecte Diabolique",
+  "license": "MIT"
+}

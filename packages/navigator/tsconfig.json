@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "luciform-core/*": ["../luciform-core/dist/*"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor": ["../file-editor/dist"],
+      "file-editor/*": ["../file-editor/dist/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/persona_loader.ts", "src/file_editor_integration.ts"],
+  "exclude": ["node_modules", "dist"]
+}

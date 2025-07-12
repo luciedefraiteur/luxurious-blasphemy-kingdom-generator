@@ -1,0 +1,9 @@
+---PAS---
+[Contexte]
+This ritual attempts to use the Claude persona without a configured API key.
+[Action]
+{
+  "type": "ask_question",
+  "persona": "claude",
+  "question": "Hello Claude, are you there?"
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts", "src/file_editor_program.ts", "src/test_batch_editor.ts"],
+  "exclude": ["node_modules", "dist"]
+}

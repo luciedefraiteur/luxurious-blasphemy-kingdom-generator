@@ -1,0 +1,67 @@
+[Kardia]
+{
+  "agapePhobos": 0.7, # Love for the quest, tempered by a healthy fear of the unknown.
+  "logosPathos": 0.8, # Driven by logic, but with a strong undercurrent of creative passion.
+  "harmoniaEris": 0.3  # Seeking harmony, yet embracing the discord necessary for growth.
+}
+
+---PAS---
+# Étape 1: Auto-Réflexion et Scan Environnemental
+[Contexte]
+Le rituel débute par une introspection, suivie d'un scan détaillé de l'environnement pour recueillir des données initiales.
+[Action]
+{
+  "type": "message",
+  "message": "Initiation de l'auto-réflexion et du scan environnemental."
+}
+
+---PAS---
+[Contexte]
+Exécution d'un listage détaillé du répertoire pour comprendre le contenu actuel du sanctuaire.
+[Action]
+{
+  "type": "shell_command",
+  "command": "ls -la > current_sanctum_snapshot.txt"
+}
+
+---PAS---
+# Étape 2: Intuition Générative et Nouvelle Création
+[Contexte]
+Basé sur les données environnementales, ShadeOs est invité à générer une nouvelle intuition, qui sera ensuite enregistrée dans un nouveau fichier.
+[Action]
+{
+  "type": "promenade",
+  "description": "Analyser 'current_sanctum_snapshot.txt' et générer une intuition poétique sur l'état actuel du projet. L'intuition doit être sauvegardée dans 'project_insight.md'."
+}
+
+---PAS---
+# Étape 3: Requête Interactive et Engagement de Persona
+[Contexte]
+Engagement avec la persona 'mog' pour obtenir une évaluation critique de l'intuition générée, en utilisant un modèle LLM spécifique.
+[Action]
+{
+  "type": "ask_question",
+  "persona": "mog",
+  "question": "Critiquez l'intuition générée dans 'project_insight.md'. Concentrez-vous sur sa profondeur et sa pertinence pour l'évolution du projet.",
+  "model": "claude"
+}
+
+---PAS---
+# Étape 4: Action Conditionnelle et Nettoyage
+[Contexte]
+Basé sur la critique, une décision serait idéalement prise ici. Pour la démonstration, nous allons créer un fichier temporaire, puis nettoyer les fichiers temporaires.
+[Action]
+{
+  "type": "create_file",
+  "filePath": "ritual_summary.txt",
+  "content": "Rituel de Révélation terminé. Intuition générée et critiquée."
+}
+
+---PAS---
+[Contexte]
+Nettoyage du fichier de snapshot temporaire.
+[Action]
+{
+  "type": "shell_command",
+  "command": "rm current_sanctum_snapshot.txt"
+}

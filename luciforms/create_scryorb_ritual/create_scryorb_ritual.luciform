@@ -1,0 +1,11 @@
+→ Ritual .luciform Signature
+→ Layers: PAS 1
+
+---PAS---
+[Contexte]
+This step generates a build log scryOrb by running the luciform build and piping its output to the scry_orb_generator.
+[Action]
+{
+  "type": "shell_command",
+  "command": "npm run build:luciform 2>&1 | node dist/scry_orb_generator.js > build_log.scryOrb"
+}

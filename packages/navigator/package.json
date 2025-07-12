@@ -1,0 +1,25 @@
+{
+  "name": "codex-lurkuitae-navigator",
+  "version": "0.1.0",
+  "description": "AI-powered Luciform parser with persona assistance.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "luciform",
+    "parser",
+    "ai",
+    "golem"
+  ],
+  "author": "Lucie Defraiteur",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

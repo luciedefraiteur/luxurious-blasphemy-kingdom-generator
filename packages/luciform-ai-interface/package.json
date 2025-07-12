@@ -1,0 +1,17 @@
+{
+  "name": "@lurkuitae/luciform-ai-interface",
+  "version": "0.1.0",
+  "description": "AI interface for the Luciform parser.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@lurkuitae/luciform-types": "file:../luciform-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

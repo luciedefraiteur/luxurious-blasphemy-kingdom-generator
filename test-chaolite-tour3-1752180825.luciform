@@ -1,0 +1,34 @@
+Options :
+  -m, --model                    Model
+                              [chaîne de caractères] [défaut : "gemini-2.5-pro"]
+  -p, --prompt                   Prompt. Appended to input on stdin (if any).
+                                                          [chaîne de caractères]
+  -s, --sandbox                  Run in sandbox?                       [booléen]
+      --sandbox-image            Sandbox image URI.       [chaîne de caractères]
+  -d, --debug                    Run in debug mode?   [booléen] [défaut : false]
+  -a, --all_files                Include ALL files in context?
+                                                      [booléen] [défaut : false]
+      --show_memory_usage        Show memory usage in status bar
+                                                      [booléen] [défaut : false]
+  -y, --yolo                     Automatically accept all actions (aka YOLO
+                                 mode, see
+                                 https://www.youtube.com/watch?v=xvFZjo5PgG0 for
+                                 more details)?       [booléen] [défaut : false]
+      --telemetry                Enable telemetry? This flag specifically
+                                 controls if telemetry is sent. Other
+                                 --telemetry-* flags set specific values but do
+                                 not enable telemetry on their own.    [booléen]
+      --telemetry-target         Set the telemetry target (local or gcp).
+                                 Overrides settings files.
+                                 [chaîne de caractères] [choix : "local", "gcp"]
+      --telemetry-otlp-endpoint  Set the OTLP endpoint for telemetry. Overrides
+                                 environment variables and settings files.
+                                                          [chaîne de caractères]
+      --telemetry-log-prompts    Enable or disable logging of user prompts for
+                                 telemetry. Overrides settings files.  [booléen]
+  -c, --checkpointing            Enables checkpointing of file edits
+                                                      [booléen] [défaut : false]
+  -v, --version                  Affiche le numéro de version          [booléen]
+  -h, --help                     Affiche l'aide                        [booléen]
+
+Argument inconnu : Tour final du test, Gemini. Peux-tu créer un mini-chaolite XML pour moi ? Format: <testChaolite>contenu</testChaolite>

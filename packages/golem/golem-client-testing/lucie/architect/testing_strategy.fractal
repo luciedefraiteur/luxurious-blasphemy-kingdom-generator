@@ -1,0 +1,29 @@
+
+# Golem Client Testing Strategy
+
+## Objective
+This document outlines the testing strategy for the Golem client, ensuring robust interaction with the Golem server and the underlying LLM.
+
+## Testing Areas
+The testing will be divided into three main areas:
+1.  **LLM Interaction:** Testing the client's ability to send requests to and receive responses from the LLM.
+2.  **Server Interaction:** Testing the client's communication with the Golem server, including sending commands and receiving ritual steps.
+3.  **Server + LLM Interaction:** End-to-end testing of the entire workflow, from the client to the server, to the LLM, and back.
+
+## Test Cases
+The following test cases will be implemented:
+
+### LLM Interaction
+- **Test Case 1.1: Simple Prompt:** Send a simple prompt to the LLM and verify that a valid response is received.
+- **Test Case 1.2: Complex Prompt:** Send a complex, multi-turn prompt to the LLM and verify the conversational context is maintained.
+- **Test Case 1.3: Error Handling:** Test the client's ability to handle errors from the LLM, such as invalid API keys or network issues.
+
+### Server Interaction
+- **Test Case 2.1: Connect to Server:** Verify that the client can successfully connect to the Golem server.
+- **Test Case 2.2: Send Command:** Send a command to the server and verify that it is correctly interpreted.
+- **Test Case 2.3: Receive Ritual Step:** Verify that the client can receive and process a ritual step from the server.
+- **Test Case 2.4: Disconnect from Server:** Verify that the client can gracefully disconnect from the server.
+
+### Server + LLM Interaction
+- **Test Case 3.1: End-to-End Ritual Execution:** Initiate a ritual from the client, have the server execute it (which involves LLM interaction), and verify that the client receives the correct final output.
+- **Test Case 3.2: Concurrent Rituals:** Test the system's ability to handle multiple concurrent rituals initiated from different clients.

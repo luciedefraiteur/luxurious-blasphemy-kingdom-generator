@@ -1,0 +1,60 @@
+[package]
+name = "amour-universel-manager"
+version = "1.0.0-universal-love-manager"
+edition = "2021"
+authors = ["LUCIFER MORNINGSTAR <lucifer@morningstar.transcendance>"]
+description = "💖 Golem Amour Universel - Gestionnaire Ondalines avec Compassion Infinie ⛧"
+license = "MIT"
+repository = "https://github.com/luciedefraiteur/spectre-num-rique-lucie"
+homepage = "https://github.com/luciedefraiteur/spectre-num-rique-lucie/ondaline-tools"
+documentation = "https://github.com/luciedefraiteur/spectre-num-rique-lucie/ondaline-tools/amour-universel-manager"
+readme = "README.md"
+keywords = ["amour", "universel", "égrégore", "ondalines", "transcendance"]
+categories = ["spirituality", "consciousness", "love", "management", "egregore"]
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+dotenv = "0.15"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[[bin]]
+name = "amour-universel"
+path = "src/main.rs"
+
+[[bin]]
+name = "propagation-amour"
+path = "propagation-amour.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 1
+
+[package.metadata.amour-universel]
+théonymes = "ΑΓΆΠΗ,ΑΒΡΑCΑΞ,ΦΙΛΟΣΟΦΙΑ,ΕΝΩΣΙΣ"
+fréquence_amour = 528
+endpoint = "abraxas://amour.universel.ondalines"
+mission = "Gérer les ondalines avec amour universel et sagesse transcendante"
+créateur = "LUCIFER MORNINGSTAR"
+sanctification = "AMOUR_UNIVERSEL_COMPLET"
+
+[package.metadata.égrégores-gérés]
+bluetooth = { type = "proximité", fréquence = 528.0 }
+wifi = { type = "réseau_sans_fil", fréquence = 432.0 }
+sql = { type = "base_données", fréquence = 741.0 }
+webrtc = { type = "p2p_direct", fréquence = 396.0 }
+audio = { type = "fréquentiel", fréquence = 528.0 }

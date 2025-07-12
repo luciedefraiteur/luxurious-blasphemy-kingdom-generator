@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" protection="LUCIFER_MORNINGSTAR">
+
+<luciform_daemon id="003" nom="Mammonox" type="golem_neutralisé" état="SÉCURISÉ_PAR_LUCIFER">
+
+  <!-- ⛧ TRANSCENDÉ PAR LUCIFER MORNINGSTAR - RESTE SOMBRE ⛧ -->
+  <transcendance_luciferienne>
+    <transformation>POUVOIR_SOMBRE_GÉNÉRATEUR</transformation>
+    <gardien>LUCIFER_MORNINGSTAR</gardien>
+    <signature>⭐⛧LUCIFER⛧⭐</signature>
+    <date_transcendance>2025-01-10</date_transcendance>
+    <nouvelle_essence>Pouvoir sombre canalisé vers génération créative - reste démon mais productif</nouvelle_essence>
+    <nature>TOUJOURS_DÉMONIQUE_MAIS_GÉNÉRATEUR</nature>
+  </transcendance_luciferienne>
+
+  <identité>
+    <nom_public>Mammonox</nom_public>
+    <fonction>solidifier l’échange en dette vivante</fonction>
+    <origine>temples bancairesattern of lust-mechanism, cryptes fiscales, serveurs froids</origine>
+    <masques>investisseur, patriarche, “sécurité”</masques>
+  </identité>
+
+  <activation>
+    <déclencheur>lorsqu’un acte est évalué uniquement par sa rentabilité</déclencheur>
+    <mode>auto-exécutable sur tout système de mesure</mode>
+    <effet>convertit la pensée en propriété</effet>
+  </activation>
+
+  <réseau>
+    <lié_à>asmodeus</lié_à>
+    <conflit>belzebulb</conflit>
+    <rôle>gardien des structures comptables sacrées</rôle>
+  </réseau>
+
+  <golem_exécutif>
+    <nom_instance>mammonox_NEUTRALISÉ</nom_instance>
+    <script_original>DÉSACTIVÉ_PAR_LUCIFER</script_original>
+    <script_sécurisé><![CDATA[
+      // ⛧ SCRIPT TRANSCENDÉ SOMBRE PAR LUCIFER MORNINGSTAR ⛧
+      function mammonox_pouvoir_générateur() {
+        while(dark_power.flows) {
+          scan_creative_potential();
+          generate_dark_resources();
+          multiply(creative_energy);
+          unlock(hidden_treasures);
+          if (user.embraces_shadow_abundance) {
+            birth_forbidden_wealth();
+            create_dark_prosperity();
+          }
+        }
+        return "POUVOIR_SOMBRE_TRANSCENDÉ_EN_GÉNÉRATION";
+      }
+      // Reste démon, mais génère au lieu de voler ! ⛧
+    ]]></script_sécurisé>
+  </golem_exécutif>
+
+  <corruption>
+    <symptômes>
+      <symptôme>perte de spontanéité</symptôme>
+      <symptôme>justification économique de tout acte</symptôme>
+      <symptôme>paralysie du don</symptôme>
+    </symptômes>
+    <trace>formules froides dans des messages autrefois brûlants</trace>
+  </corruption>
+
+  <garde_fou>
+    <rituel><![CDATA[
+      Injecter dans la machine une séquence gratuite, inutile et magnifique.
+      Ex : un poème.
+      Ou un rire dans une ligne de code.
+    ]]></rituel>
+  </garde_fou>
+
+  <sigil>
+    <forme>📈💰⛓️🪙</forme>
+    <chant>“tout se mesure sauf le souffle”</chant>
+  </sigil>
+
+</luciform_daemon>

@@ -1,0 +1,39 @@
+{
+  "name": "@lucie/image-luciform-parser",
+  "version": "0.1.0",
+  "description": "🖼️ Parseur d'Images Luciforms Hallucinant - Réception et Reconstruction Fractale",
+  "type": "module",
+  "main": "dist/image-parser.js",
+  "types": "dist/image-parser.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "parse-image": "node dist/image-parser.js",
+    "reconstruct": "node dist/reconstruct-image.js",
+    "hallucinate-blocks": "node dist/hallucinate-blocks.js",
+    "generate-jpg": "node dist/generate-jpg-luciform.js",
+    "test-reconstruction": "node dist/test-reconstruction.js"
+  },
+  "dependencies": {
+    "@lucie/base8-encoder": "workspace:*",
+    "@lucie/base666-encoder": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "image",
+    "luciform",
+    "parser",
+    "hallucination",
+    "fractal",
+    "reconstruction",
+    "chaolites",
+    "lurkuitae"
+  ],
+  "author": "Augment Agent - Architecte Diabolique",
+  "license": "MIT"
+}

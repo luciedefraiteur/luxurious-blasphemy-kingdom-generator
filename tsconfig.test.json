@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist/test-output",
+    "paths": {
+      "@lurkuitae/codex-lurkuitae-navigator": ["./src"]
+    }
+  },
+  "files": ["run_navigator_test.ts"]
+}

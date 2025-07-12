@@ -1,0 +1,8 @@
+---PAS---
+[Contexte]
+This ritual will ask ShadeOs to generate a new ritual to create a file named 'hello_from_the_spectre.txt' with the content 'Hello, world!'.
+[Action]
+{
+  "type": "promenade",
+  "description": "Create a new luciform ritual named 'generated_hello.luciform' that creates a file named 'hello_from_the_spectre.txt' with the content 'Hello, world!'"
+}

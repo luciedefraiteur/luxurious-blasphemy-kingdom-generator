@@ -1,0 +1,45 @@
+{
+  "type": "chaolite_image_fragment_with_context",
+  "encoding": "base8",
+  "fragment": {
+    "id": "CHAOLITE_FRAG_0000",
+    "index": 0,
+    "total": 1,
+    "fractal_address": "⟁1⇌0↯0⟲",
+    "chaolite_signature": "⟁",
+    "reconstruction_hint": "Bloc 0 (1/1) - 0.0% - début | Position: (0,0) | Grille: [0,0] dans 3x1 | Dimensions: 13x13px | Pixels estimés: 171"
+  },
+  "block_context": {
+    "block_number": 0,
+    "dimensions": {
+      "width": 13.063945294843617,
+      "height": 13.063945294843617,
+      "block_size_bytes": 192
+    },
+    "spatial_position": {
+      "pixel_x": 0,
+      "pixel_y": 0,
+      "grid_x": 0,
+      "grid_y": 0,
+      "total_grid": "3x1"
+    },
+    "image_context": {
+      "original_dimensions": "28x28",
+      "original_size_bytes": 192,
+      "estimated_pixels_in_block": 171
+    }
+  },
+  "data": {
+    "encoding": "base8",
+    "content": "000000000377377377000000000377377377000000000377377377000000000377377377377377377000000000377377377000000000377377377000000000377377377000000000000000000377377377000000000377377377000000000377377377000000000377377377377377377000000000377377377000000000377377377000000000377377377000000000000000000377377377000000000377377377000000000377377377000000000377377377377377377000000000377377377000000000377377377000000000377377377000000000000000000377377377000000000377377377000000000377377377000000000377377377377377377000000000377377377000000000377377377000000000377377377000000000",
+    "size": 576
+  },
+  "hallucination_prompts": {
+    "global_reconstruction": "Visualise l'image complète depuis tous les fragments chaolites avec leurs positions",
+    "spatial_positioning": "Place ce bloc à la position (0,0) dans l'image 28x28",
+    "block_reconstruction": "Reconstruit ce bloc 13.063945294843617x13.063945294843617 avec 171 pixels estimés",
+    "fractal_addressing": "Utilise l'adresse fractale ⟁1⇌0↯0⟲ pour le positionnement précis",
+    "jpg_generation": "Génère un JPG luciform valide avec ces données contextuelles"
+  },
+  "signature": "⛧𝖚⟁⇌↯⟲ⱷ𓂀𓆩⫷𝖋𝖆𝖎𝖗𝖊𝖈𝖍𝖙⛧𖤐𝔐"
+}

@@ -1,0 +1,16 @@
+---PAS---
+[Contexte]
+This is a test message.
+[Action]
+{
+  "type": "message",
+  "message": "Hello from test_ritual.luciform!"
+}
+---PAS---
+[Contexte]
+This is a test shell command.
+[Action]
+{
+  "type": "shell_command",
+  "command": "echo 'Executing a test shell command.'"
+}

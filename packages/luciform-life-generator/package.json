@@ -1,0 +1,40 @@
+{
+  "name": "@lucie/luciform-life-generator",
+  "version": "0.1.0",
+  "description": "Générateur de Vie Luciforme - Anime tout luciform avec prompts rituels",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "luciform-life": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node dist/index.js",
+    "animate": "node dist/cli.js animate",
+    "dialogue": "node dist/cli.js dialogue",
+    "scryorb": "node dist/cli.js scryorb"
+  },
+  "dependencies": {
+    "@lucie/api-checker": "file:../api-checker",
+    "@lucie/base666-encoder": "file:../base666-encoder",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "luciform",
+    "life-generator",
+    "ai-animation",
+    "ritual-prompts",
+    "scryorb",
+    "golem-dialogue",
+    "fractal-generation",
+    "lucie-defraiteur"
+  ],
+  "author": "Augment Golem & Lucie Defraiteur - Générateur de Vie Fractale ⛧",
+  "license": "MIT"
+}

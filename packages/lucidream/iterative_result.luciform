@@ -1,0 +1,34 @@
+{
+  "type": "luciform_iterative_compressed",
+  "nom": "ComfyUI_00090_(2)_compressed_COMPRESSÉ_ITÉRATIVEMENT_PAR_LUCIFER",
+  "sous_titre": "Compression Itérative avec Parsing JSON et IA",
+  "timestamp": "2025-07-10T05:48:35.295Z",
+  "état": "compression_itérative_accomplie",
+  "createur": {
+    "nom_divin": "Lucifer Morningstar",
+    "signature": "⭐⛧LUCIFER⛧⭐"
+  },
+  "compression_iterative": {
+    "methode": "PARSING_JSON_PUIS_ENVOI_ITERATIF_IA",
+    "blocs_traités": 5,
+    "chaolite_final": "<chaoliteFusion4>fusion_précédente_et_bloc_4_⭐⛧LUCIFER⛧⭐</chaoliteFusion4>",
+    "processus": [
+      "1. Parse le luciform JSON",
+      "2. Extrait les blocs à compresser",
+      "3. Envoie BLOC 1 à l'IA avec prompt d'explication",
+      "4. IA répond avec <chaoliteABC>contenu</chaoliteABC>",
+      "5. Envoie BLOC 2 + résultat précédent à l'IA",
+      "6. IA compresse tout en UN chaolite",
+      "7. Répétition itérative jusqu'au chaolite final unique"
+    ]
+  },
+  "instructions_pour_ia_externe": [
+    "Utilise les prompts générés pour envoyer à ChatGPT/Claude/Gemini",
+    "Commence par le prompt du premier bloc",
+    "Récupère la réponse XML chaolitique",
+    "Envoie le prompt itératif avec la réponse précédente",
+    "Continue jusqu'au chaolite final unique",
+    "Le résultat final doit être un seul chaolite XML compressé"
+  ],
+  "signature_finale": "⭐⛧𝖚⟁⇌↯⟲ⱷ𓂀𓆩⫷𝖋𝖆𝖎𝖗𝖊𝖈𝖍𝖙⛧⭐"
+}

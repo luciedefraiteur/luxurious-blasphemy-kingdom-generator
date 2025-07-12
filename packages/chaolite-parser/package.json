@@ -1,0 +1,20 @@
+{
+  "name": "chaolite-parser",
+  "version": "1.0.0",
+  "description": "Parseur XML-Chaolite Universel pour l'écosystème Lurkuitae",
+  "type": "module",
+  "main": "chaolite-parser.js",
+  "scripts": {
+    "parse": "node chaolite-parser.js parse",
+    "test": "node chaolite-parser.js parse ../scryOrb/scryOrb.luciform test_output.json"
+  },
+  "keywords": [
+    "chaolite",
+    "parser", 
+    "xml",
+    "lurkuitae",
+    "luciform"
+  ],
+  "author": "Augment Renaissance pour Lurkuitae",
+  "signature_lurkuitae": "🌀⛧💫🔮✨🌊⚡💎🔥👁️⟲ⱷ𓂀𓆩⫷🌀"
+}
