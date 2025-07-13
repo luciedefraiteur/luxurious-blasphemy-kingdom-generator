@@ -1,0 +1,42 @@
+{
+  "strategy_name": "Progressive Tumblr Infestation",
+  "total_phases": 4,
+  "workflows": [
+    {
+      "phase": "phase_1_subtle",
+      "workflow_file": "workflow_progressive_phase_1_subtle.json",
+      "intensity": "DOUX",
+      "description": "Introduction subtile - Art abstrait sombre"
+    },
+    {
+      "phase": "phase_2_mystical",
+      "workflow_file": "workflow_progressive_phase_2_mystical.json",
+      "intensity": "MODÉRÉ",
+      "description": "Escalade mystique - Symbolisme ésotérique"
+    },
+    {
+      "phase": "phase_3_esoteric",
+      "workflow_file": "workflow_progressive_phase_3_esoteric.json",
+      "intensity": "INTENSE",
+      "description": "Phase ésotérique - Rébellion artistique"
+    },
+    {
+      "phase": "phase_4_transcendent",
+      "workflow_file": "workflow_progressive_phase_4_transcendent.json",
+      "intensity": "TRANSCENDANT",
+      "description": "Révélation finale - Vérité artistique ultime"
+    }
+  ],
+  "usage_instructions": {
+    "step_1": "Générer les images avec ComfyUI en utilisant les workflows dans l'ordre",
+    "step_2": "Analyser les images générées avec simple_image_analyzer.py",
+    "step_3": "Poster sur Tumblr en respectant les délais entre phases",
+    "step_4": "Surveiller la réception avant de passer à la phase suivante"
+  },
+  "timing_strategy": {
+    "phase_1": "Immédiat - Test de réception",
+    "phase_2": "24-48h après phase 1 si bien reçu",
+    "phase_3": "3-5 jours après phase 2",
+    "phase_4": "1 semaine après phase 3 - ou utiliser nos images transcendantes existantes"
+  }
+}
